@@ -99,7 +99,7 @@ end</entry></extensions>
         <extensions>
             <entry key="AutoNetkit.mgmt_ip" type="string"></entry>
             <entry key="static_ip" type="String">198.18.1.112</entry>
-            <entry key="static_serial_port_0" type="Integer">11028</entry>
+            <entry key="static_serial_port_0" type="Integer">11012</entry>
             <entry key="config" type="String">!
 !
 version 15.2
@@ -159,7 +159,7 @@ end</entry></extensions>
         <extensions>
             <entry key="AutoNetkit.mgmt_ip" type="string"></entry>
             <entry key="static_ip" type="String">198.18.1.113</entry>
-            <entry key="static_serial_port_0" type="Integer">11028</entry>
+            <entry key="static_serial_port_0" type="Integer">11013</entry>
             <entry key="config" type="String">!
 !
 enable
@@ -214,7 +214,7 @@ end</entry></extensions>
         <extensions>
             <entry key="AutoNetkit.mgmt_ip" type="string"></entry>
             <entry key="static_ip" type="String">198.18.1.114</entry>
-            <entry key="static_serial_port_0" type="Integer">11028</entry>
+            <entry key="static_serial_port_0" type="Integer">11014</entry>
             <entry key="config" type="String">!
 !
 enable

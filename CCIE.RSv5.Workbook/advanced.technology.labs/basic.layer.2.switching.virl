@@ -45,6 +45,8 @@ no ip domain-lookup
 spanning-tree mode pvst
 spanning-tree extend system-id
 !
+interface GigabitEthernet0/0
+shutdown
 !
 line con 0
  exec-timeout 0 0
@@ -83,6 +85,8 @@ no ip domain-lookup
 spanning-tree mode pvst
 spanning-tree extend system-id
 !
+interface GigabitEthernet0/0
+shutdown
 !
 line con 0
  exec-timeout 0 0
@@ -120,6 +124,8 @@ no ip domain-lookup
 spanning-tree mode pvst
 spanning-tree extend system-id
 !
+interface GigabitEthernet0/0
+shutdown
 !
 line con 0
  exec-timeout 0 0
@@ -157,6 +163,8 @@ no ip domain-lookup
 spanning-tree mode pvst
 spanning-tree extend system-id
 !
+interface GigabitEthernet0/0
+shutdown
 !
 line con 0
  exec-timeout 0 0

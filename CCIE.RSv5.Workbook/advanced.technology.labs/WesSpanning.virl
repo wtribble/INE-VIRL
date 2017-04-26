@@ -86,8 +86,7 @@ line vty 0 4
 line vty 5 15
  no login
 !
-end
-</entry></extensions>
+end</entry></extensions>
         <interface id="0" name="GigabitEthernet0/1"/>
         <interface id="1" name="GigabitEthernet0/2"/>
         <interface id="2" name="GigabitEthernet0/3"/>
@@ -147,8 +146,7 @@ line vty 0 4
 line vty 5 15
  no login
 !
-end
-</entry></extensions>
+end</entry></extensions>
         <interface id="0" name="GigabitEthernet0/1"/>
         <interface id="1" name="GigabitEthernet0/2"/>
         <interface id="2" name="GigabitEthernet0/3"/>
@@ -204,15 +202,14 @@ line vty 0 4
 line vty 5 15
  no login
 !
-end
-</entry></extensions>
+end</entry></extensions>
         <interface id="0" name="GigabitEthernet0/1"/>
         <interface id="1" name="GigabitEthernet0/2"/>
         <interface id="2" name="GigabitEthernet0/3"/>
         <interface id="3" name="GigabitEthernet1/0"/>
         <interface id="4" name="GigabitEthernet1/1"/>
         <interface id="5" name="GigabitEthernet1/2"/>
-     </node>
+    </node>
     <node name="SW4" type="SIMPLE" subtype="IOSvL2" location="580,519">
         <extensions>
             <entry key="AutoNetkit.mgmt_ip" type="string"></entry>

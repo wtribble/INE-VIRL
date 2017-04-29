@@ -104,14 +104,17 @@ spanning-tree extend system-id
 spanning-tree vlan 1-4094 priority 16384
 !
 !
-interface range FastEthernet0/19 - 20
+interface range G0/0
+shut
+!
+interface range G0/1 - 2
  switchport trunk encapsulation dot1q
  switchport mode trunk
 !
-interface range FastEthernet0/21 - 22
+interface range G1/0 , G0/3
  shutdown
 !
-interface range FastEthernet0/23 - 24
+interface range G1/1 - 2
  switchport trunk encapsulation dot1q
  switchport mode trunk
 !
@@ -151,15 +154,17 @@ no ip domain-lookup
 spanning-tree mode pvst
 spanning-tree extend system-id
 !
+interface range G0/0
+shut
 !
-interface range FastEthernet0/19 - 20
+interface range G0/1 - 2
  switchport trunk encapsulation dot1q
  switchport mode trunk
 !
-interface range FastEthernet0/21 - 22
+interface range G1/0 , G0/3
  shutdown
 !
-interface range FastEthernet0/23 - 24
+interface range G1/1 - 2
  switchport trunk encapsulation dot1q
  switchport mode trunk
 !
@@ -200,15 +205,17 @@ spanning-tree mode pvst
 spanning-tree extend system-id
 spanning-tree vlan 1-4094 priority 8192
 !
+interface range G0/0
+shut
 !
-interface range FastEthernet0/19 - 20
+interface range G0/1 - 2
  switchport trunk encapsulation dot1q
  switchport mode trunk
 !
-interface range FastEthernet0/21 - 22
+interface range G1/0 , G0/3
  shutdown
 !
-interface range FastEthernet0/23 - 24
+interface range G1/1 - 2
  switchport trunk encapsulation dot1q
  switchport mode trunk
 !

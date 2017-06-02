@@ -151,7 +151,7 @@ ip forward-protocol nd
 !
 no ip http server
 no ip http secure-server
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 ip ssh server algorithm authentication password
 !
 kron occurrence KRONJOB in 1 recurring system-startup
@@ -407,7 +407,7 @@ ip forward-protocol nd
 !
 no ip http server
 no ip http secure-server
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 ip ssh server algorithm authentication password
 !
 kron occurrence KRONJOB in 1 recurring system-startup
@@ -699,7 +699,7 @@ ip forward-protocol nd
 !
 no ip http server
 no ip http secure-server
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 ip ssh server algorithm authentication password
 !
 !
@@ -967,7 +967,7 @@ ip forward-protocol nd
 !
 no ip http server
 no ip http secure-server
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 ip ssh server algorithm authentication password
 !
 kron occurrence KRONJOB in 1 recurring system-startup
@@ -1220,7 +1220,7 @@ ip forward-protocol nd
 !
 no ip http server
 no ip http secure-server
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 ip ssh server algorithm authentication password
 !
 kron occurrence KRONJOB in 1 recurring system-startup
@@ -1432,7 +1432,7 @@ ip forward-protocol nd
 !
 no ip http server
 no ip http secure-server
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 ip ssh server algorithm authentication password
 !
 kron occurrence KRONJOB in 1 recurring system-startup
@@ -1649,7 +1649,7 @@ ip forward-protocol nd
 !
 no ip http server
 no ip http secure-server
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 ip ssh server algorithm authentication password
 !
 kron occurrence KRONJOB in 1 recurring system-startup
@@ -1877,7 +1877,7 @@ ip forward-protocol nd
 !
 no ip http server
 no ip http secure-server
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 ip ssh server algorithm authentication password
 !
 kron occurrence KRONJOB in 1 recurring system-startup
@@ -2098,7 +2098,7 @@ ip forward-protocol nd
 !
 no ip http server
 no ip http secure-server
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 ip ssh server algorithm authentication password
 !
 kron occurrence KRONJOB in 1 recurring system-startup
@@ -2318,7 +2318,7 @@ ip forward-protocol nd
 !
 no ip http server
 no ip http secure-server
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 ip ssh server algorithm authentication password
 !
 kron occurrence KRONJOB in 1 recurring system-startup
@@ -2531,7 +2531,7 @@ ip forward-protocol nd
 !
 no ip http server
 no ip http secure-server
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 ip ssh server algorithm authentication password
 !
 !
@@ -2773,7 +2773,7 @@ ip forward-protocol nd
 !
 no ip http server
 no ip http secure-server
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 ip ssh server algorithm authentication password
 !
 !
@@ -3046,7 +3046,7 @@ no ip http server
 no ip http secure-server
 ip route 10.24.24.24 255.255.255.255 12.18.255.6
 ip route 10.25.25.25 255.255.255.255 12.18.255.6
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 ip ssh server algorithm authentication password
 !
 kron occurrence KRONJOB in 1 recurring system-startup
@@ -3301,7 +3301,7 @@ no ip http server
 no ip http secure-server
 ip route 10.0.0.0 255.224.0.0 10.1.102.25
 ip route 10.24.24.24 255.255.255.255 184.17.13.25
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 ip ssh server algorithm authentication password
 !
 kron occurrence KRONJOB in 1 recurring system-startup
@@ -3470,7 +3470,7 @@ ip forward-protocol nd
 !
 no ip http server
 no ip http secure-server
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 ip ssh server algorithm authentication password
 !
 kron occurrence KRONJOB in 1 recurring system-startup
@@ -3638,7 +3638,7 @@ ip forward-protocol nd
 !
 no ip http server
 no ip http secure-server
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 ip ssh server algorithm authentication password
 !
 kron occurrence KRONJOB in 1 recurring system-startup
@@ -3806,7 +3806,7 @@ ip forward-protocol nd
 !
 no ip http server
 no ip http secure-server
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 ip ssh server algorithm authentication password
 !
 kron occurrence KRONJOB in 1 recurring system-startup
@@ -3983,7 +3983,7 @@ ip forward-protocol nd
 !
 no ip http server
 no ip http secure-server
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 ip ssh server algorithm authentication password
 !
 kron occurrence KRONJOB in 1 recurring system-startup
@@ -4161,7 +4161,7 @@ ip forward-protocol nd
 !
 no ip http server
 no ip http secure-server
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 ip ssh server algorithm authentication password
 !
 kron occurrence KRONJOB in 1 recurring system-startup
@@ -4336,7 +4336,7 @@ ip forward-protocol nd
 !
 no ip http server
 no ip http secure-server
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 ip ssh server algorithm authentication password
 !
 kron occurrence KRONJOB in 1 recurring system-startup
@@ -4586,7 +4586,7 @@ no ip http secure-server
 ip pim rp-address 10.1.1.255 override
 ip route 10.24.24.24 255.255.255.255 167.22.2.2
 ip route 10.25.25.25 255.255.255.255 167.22.2.2
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 ip ssh server algorithm authentication password
 !
 ip access-list extended NULL
@@ -4759,7 +4759,7 @@ ip forward-protocol nd
 !
 no ip http server
 no ip http secure-server
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 ip ssh server algorithm authentication password
 !
 kron occurrence KRONJOB in 1 recurring system-startup
@@ -4927,7 +4927,7 @@ ip forward-protocol nd
 !
 no ip http server
 no ip http secure-server
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 ip ssh server algorithm authentication password
 !
 kron occurrence KRONJOB in 1 recurring system-startup
@@ -5214,7 +5214,7 @@ ip pim rp-candidate Loopback1
 ip msdp peer 10.25.25.25 connect-source Loopback0
 ip msdp cache-sa-state
 ip msdp default-peer 10.25.25.25
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 ip ssh server algorithm authentication password
 !
 kron occurrence KRONJOB in 1 recurring system-startup
@@ -5504,7 +5504,7 @@ ip pim rp-candidate Loopback1
 ip msdp peer 10.24.24.24 connect-source Loopback0
 ip msdp cache-sa-state
 ip msdp default-peer 10.24.24.24
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 ip ssh server algorithm authentication password
 !
 kron occurrence KRONJOB in 1 recurring system-startup
@@ -5689,7 +5689,7 @@ ip forward-protocol nd
 !
 no ip http server
 no ip http secure-server
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 ip ssh server algorithm authentication password
 !
 kron occurrence KRONJOB in 1 recurring system-startup
@@ -5873,7 +5873,7 @@ ip forward-protocol nd
 !
 no ip http server
 no ip http secure-server
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 ip ssh server algorithm authentication password
 !
 kron occurrence KRONJOB in 1 recurring system-startup
@@ -6044,7 +6044,7 @@ ip forward-protocol nd
 no ip http server
 no ip http secure-server
 !
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 !
 !
 kron occurrence KRONJOB in 1 recurring system-startup
@@ -6198,7 +6198,7 @@ ip forward-protocol nd
 no ip http server
 no ip http secure-server
 !
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 !
 !
 kron occurrence KRONJOB in 1 recurring system-startup
@@ -6386,7 +6386,7 @@ ip forward-protocol nd
 no ip http server
 no ip http secure-server
 !
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 !
 !
 kron occurrence KRONJOB in 1 recurring system-startup
@@ -6542,7 +6542,7 @@ ip forward-protocol nd
 !
 no ip http server
 no ip http secure-server
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 ip ssh server algorithm authentication password
 !
 kron occurrence KRONJOB in 1 recurring system-startup
@@ -6694,7 +6694,7 @@ ip forward-protocol nd
 !
 no ip http server
 no ip http secure-server
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 ip ssh server algorithm authentication password
 !
 kron occurrence KRONJOB in 1 recurring system-startup
@@ -6862,7 +6862,7 @@ ip forward-protocol nd
 !
 no ip http server
 no ip http secure-server
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 ip ssh server algorithm authentication password
 !
 kron occurrence KRONJOB in 1 recurring system-startup
@@ -7033,7 +7033,7 @@ ip forward-protocol nd
 !
 no ip http server
 no ip http secure-server
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 ip ssh server algorithm authentication password
 !
 kron occurrence KRONJOB in 1 recurring system-startup
@@ -7187,7 +7187,7 @@ ip forward-protocol nd
 !
 no ip http server
 no ip http secure-server
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 ip ssh server algorithm authentication password
 !
 kron occurrence KRONJOB in 1 recurring system-startup
@@ -7339,7 +7339,7 @@ ip forward-protocol nd
 !
 no ip http server
 no ip http secure-server
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 ip ssh server algorithm authentication password
 !
 kron occurrence KRONJOB in 1 recurring system-startup
@@ -7484,7 +7484,7 @@ ip forward-protocol nd
 !
 no ip http server
 no ip http secure-server
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 ip ssh server algorithm authentication password
 !
 kron occurrence KRONJOB in 1 recurring system-startup
@@ -7635,7 +7635,7 @@ ip forward-protocol nd
 !
 no ip http server
 no ip http secure-server
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 ip ssh server algorithm authentication password
 !
 kron occurrence KRONJOB in 1 recurring system-startup
@@ -7787,7 +7787,7 @@ ip forward-protocol nd
 !
 no ip http server
 no ip http secure-server
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 ip ssh server algorithm authentication password
 !
 kron occurrence KRONJOB in 1 recurring system-startup
@@ -7939,7 +7939,7 @@ ip forward-protocol nd
 !
 no ip http server
 no ip http secure-server
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 ip ssh server algorithm authentication password
 !
 kron occurrence KRONJOB in 1 recurring system-startup
@@ -8091,7 +8091,7 @@ ip forward-protocol nd
 !
 no ip http server
 no ip http secure-server
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 ip ssh server algorithm authentication password
 !
 kron occurrence KRONJOB in 1 recurring system-startup
@@ -8243,7 +8243,7 @@ ip forward-protocol nd
 !
 no ip http server
 no ip http secure-server
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 ip ssh server algorithm authentication password
 !
 kron occurrence KRONJOB in 1 recurring system-startup
@@ -8395,7 +8395,7 @@ ip forward-protocol nd
 !
 no ip http server
 no ip http secure-server
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 ip ssh server algorithm authentication password
 !
 kron occurrence KRONJOB in 1 recurring system-startup
@@ -8540,7 +8540,7 @@ ip forward-protocol nd
 !
 no ip http server
 no ip http secure-server
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 ip ssh server algorithm authentication password
 !
 kron occurrence KRONJOB in 1 recurring system-startup
@@ -8691,7 +8691,7 @@ ip forward-protocol nd
 !
 no ip http server
 no ip http secure-server
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 ip ssh server algorithm authentication password
 !
 kron occurrence KRONJOB in 1 recurring system-startup
@@ -8850,7 +8850,7 @@ ip forward-protocol nd
 !
 no ip http server
 no ip http secure-server
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 ip ssh server algorithm authentication password
 !
 kron occurrence KRONJOB in 1 recurring system-startup
@@ -9010,7 +9010,7 @@ ip forward-protocol nd
 !
 no ip http server
 no ip http secure-server
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 ip ssh server algorithm authentication password
 !
 kron occurrence KRONJOB in 1 recurring system-startup
@@ -9193,7 +9193,7 @@ ip forward-protocol nd
 !
 no ip http server
 no ip http secure-server
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 ip ssh server algorithm authentication password
 !
 kron occurrence KRONJOB in 1 recurring system-startup
@@ -9348,7 +9348,7 @@ ip forward-protocol nd
 !
 no ip http server
 no ip http secure-server
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 ip ssh server algorithm authentication password
 !
 kron occurrence KRONJOB in 1 recurring system-startup
@@ -9507,7 +9507,7 @@ ip forward-protocol nd
 !
 no ip http server
 no ip http secure-server
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 ip ssh server algorithm authentication password
 !
 kron occurrence KRONJOB in 1 recurring system-startup
@@ -9674,7 +9674,7 @@ ip forward-protocol nd
 !
 no ip http server
 no ip http secure-server
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 ip ssh server algorithm authentication password
 !
 kron occurrence KRONJOB in 1 recurring system-startup
@@ -9828,7 +9828,7 @@ ip forward-protocol nd
 !
 no ip http server
 no ip http secure-server
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 ip ssh server algorithm authentication password
 !
 kron occurrence KRONJOB in 1 recurring system-startup
@@ -9973,7 +9973,7 @@ ip forward-protocol nd
 !
 no ip http server
 no ip http secure-server
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 ip ssh server algorithm authentication password
 !
 kron occurrence KRONJOB in 1 recurring system-startup
@@ -10152,7 +10152,7 @@ ip forward-protocol nd
 !
 no ip http server
 no ip http secure-server
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 ip ssh server algorithm authentication password
 !
 kron occurrence KRONJOB in 1 recurring system-startup
@@ -10338,7 +10338,7 @@ ip forward-protocol nd
 !
 no ip http server
 no ip http secure-server
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 ip ssh server algorithm authentication password
 !
 kron occurrence KRONJOB in 1 recurring system-startup
@@ -10524,7 +10524,7 @@ ip forward-protocol nd
 no ip http server
 no ip http secure-server
 !
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 !
 !
 kron occurrence KRONJOB in 1 recurring system-startup
@@ -10693,7 +10693,7 @@ ip forward-protocol nd
 no ip http server
 no ip http secure-server
 !
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 !
 !
 kron occurrence KRONJOB in 1 recurring system-startup
@@ -10854,7 +10854,7 @@ ip forward-protocol nd
 no ip http server
 no ip http secure-server
 !
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 !
 !
 kron occurrence KRONJOB in 1 recurring system-startup
@@ -11006,7 +11006,7 @@ ip forward-protocol nd
 no ip http server
 no ip http secure-server
 !
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 !
 !
 kron occurrence KRONJOB in 1 recurring system-startup
@@ -11169,7 +11169,7 @@ ip forward-protocol nd
 no ip http server
 no ip http secure-server
 !
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 !
 !
 kron occurrence KRONJOB in 1 recurring system-startup
@@ -11456,7 +11456,7 @@ interface GigabitEthernet0/0
  speed auto
  media-type rj45
  no cdp enable
-ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.254
+ip route vrf Mgmt-intf 0.0.0.0 0.0.0.0 172.16.1.1
 ip ssh server algorithm authentication password
 !
 kron occurrence KRONJOB in 1 recurring system-startup
